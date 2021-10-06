@@ -1,4 +1,4 @@
-//function that prints my name and age
+// //function that prints my name and age
 
 function myNameDynamic(Name) {
     console.log (Name)
@@ -10,8 +10,8 @@ myNameDynamic("Kayaga Sophie, 23yrs")
 myNameDynamic("Kabahita Victoria, 30yrs")
 
 
-/*A function that takes another function as a parameter and 
-returns the result of calling the parameter function*/
+// /*A function that takes another function as a parameter and 
+// returns the result of calling the parameter function*/
 
 function calculateMyAge (yearOfBirth) {
     let currentYear=new Date().getFullYear();
@@ -28,15 +28,14 @@ function displayAge(name, yearOfBirth){
 
 /*arrow function and in it have two local variables concatenated together and assign 
 the result to a new variable and the function call should print to the console.*/
-let join = (a, b) => { 
-    return ("a" + " b") 
- }
- console.log (join(a,b))
+let join = (a,b) => (a + b); 
+ console.log (join("Suzan " + " Apolot "));
 
 // loop of your choosing to print I love Uganda 19 times.
 
-let loveUg =19; 
-for (num=0; num <= loveUg; num++);
-{
-    console.log("I Love Uganda!", num)
-}
+    for (let num = 1; num <= 19; num++)
+    {
+       console.log('I Love Uganda!' + num);
+    }
+
+    
